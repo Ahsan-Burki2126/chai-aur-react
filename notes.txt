@@ -1,0 +1,21 @@
+what is a vite?
+vite is a bundler that comine all the files in your folder structure and gives it to the broswer.
+
+
+when we create create-react-app its a utility that creates the basic folder structure for react arrp and give us some files and folders 
+all of this files and folders has some purposes but the main folder that we will work on is package.json.
+in package.json there are different things we come across but in the scripts section we get 3 diffefernt  scripts.
+
+1)start ====> to start the application on our local server it serves the source file.
+
+2)build ====> to run the application on production server it basically creates an entire differnt folder and serves that folder from 
+server to client.the behaviour of that file maybe different from our source app or at our local production.
+
+3)test =====> test the application.
+
+4) eject =====> help in ejection from react to other libray,language or framework.
+
+
+Note: there are differnt types of bundlers that we come across in our daily life , create-react-app is one of them.but the most effiecient in my opinion is 
+vite.vite gives us very less ammount of modules that made it easy.the main difference between vite and create-react-app is that 
+create-react-app gives us modules folder wwhile in vite we have to install the packages and modules later on.
